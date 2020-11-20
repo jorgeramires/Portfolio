@@ -1,29 +1,26 @@
 <!DOCTYPE html>
-<html>
+ <html>
 
 
-<head> <meta charset="UTF-8"> </head>
+  <head> <meta charset="UTF-8"> </head>
+   <title>Meu Portifolio</title>
 
+   <style>
+      body {
+       background-color: rgb(255, 400, 200);
+        }
 
+      *{
+        margin: 35px;
+        padding: 35px ;
+        }
+       #nome1{
+       text-align: center;
 
-<title>Meu Portifolio</title>
-
-<style>
-body {
-    background-color: rgb(255, 400, 200);
-}
-
-*{
-    margin: 35px;
-    padding: 35px ;
-}
-#nome1{
-    text-align: center;
-
-}
-#foto {
-    background-color: blue;
-}
+       }
+      #foto {
+       background-color: blue;
+       }
 #nome {font-family: "fantasy"}
 #descricao {font-family: "sans-serif"}
 #local {
@@ -33,8 +30,12 @@ body {
     font-size: 2em;
     font-weight: bold;
 }
-
+.fotoesquerda{float: left;}
+.textright{float:right;}
 </style>
+
+
+
 <body>
    <!--
 
@@ -51,10 +52,12 @@ Coloque estilo somente nos ítens ímpares da lista das suas habilidades.
   
    <div id="nome1"> 
        <h1 id ="nome">Jorge Ramires Lourenco</h1></div>
-    <div id= "foto"><img src="jorge.jpg" alt="minha foto"  width="400px"></div>
+    <div class = "fotoesquerda"></div>
+       <div id= "foto"><img src="jorge.jpg" alt="minha foto"  width="400px"></div>
 <!-- paragrafos-->
 <a href="#hab"> Minhas Habilidades</a>
-  <div id="descricao1">  <p id="descricao">Meu nome e Jorge eu tenho 36 anos <p id = "local"></p> nasci e cresci na cidade de sao paulo</p>
+ <div class= "textright">  
+<div id="descricao1">  <p id="descricao">Meu nome e Jorge eu tenho 36 anos <p id = "local"></p> nasci e cresci na cidade de sao paulo</p>
      minha vida no mundo da informatica comecou cedo ainda aos 8 anos quando meu pai comprou</p> 
 <p>o primeiro computador da casa, ainda hoje me lembro da felicidade que foi
 mas tambem da curiosidade sobre aquele "poderoso 386", os anos foram passando</p>
@@ -62,7 +65,7 @@ mas tambem da curiosidade sobre aquele "poderoso 386", os anos foram passando</p
 15 anos finalizei o curso de montagem e manutencao de pcs, sempre trabalhando com formatacao e configuracao de computadores,
 descobri a programacao quando conheci a<br> plataforma unity com programacao em C#, conseguindo desenvolver com certa facilidade os </p>
 <p>tutoriais atraves do youtube, depois vim a cruzar com a Trybe agora dando inicio a uma caminhada real na vida de programador 
-</p></div>
+</p></div></div>
 
 
 
